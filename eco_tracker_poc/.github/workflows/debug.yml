@@ -1,0 +1,10 @@
+name: Debug Workflow
+
+on: [push]
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World
+        run: echo "Hello World - Actions should trigger on any push"
